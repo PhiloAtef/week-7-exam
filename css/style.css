@@ -1,3 +1,7 @@
+:root {
+  --transition-duration: 0.5s;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -328,4 +332,24 @@ img {
 .prtfcontainer img{
   width: 90%;
   height: auto;
+}
+
+.card .icon {
+  width: 80px;
+  height: 80px;
+  box-sizing: content-box;
+  margin: auto;
+  transition: var(--transition-duration);
+}
+
+.card .icon:hover {
+  background-color: black !important;
+}
+
+.card .icon i {
+  transition: var(--transition-duration);
+}
+
+.card .icon:hover i {
+  color: white;
 }
