@@ -1,5 +1,7 @@
 :root {
   --transition-duration: 0.5s;
+  --grey-color: hsl(0, 0%, 60%);
+  --dark-grey-color: hsl(0, 0%, 11%); 
 }
 
 html {
@@ -17,7 +19,7 @@ body {
 }
 
 a {
-  color: #1c1c1c;
+  color: var(--dark-grey-color);
 }
 
 h1,
@@ -235,7 +237,7 @@ img {
   height: 100%;
   width: 95%;
   border-radius: 5px;
-  background-color: #1c1c1c;
+  background-color: var(--dark-grey-color);
 }
 
 .about .skills .skills-progress .branding {
@@ -245,7 +247,7 @@ img {
   height: 100%;
   width: 80%;
   border-radius: 5px;
-  background-color: #1c1c1c;
+  background-color: var(--dark-grey-color);
 }
 .about .skills .skills-progress .development {
   position: absolute;
@@ -254,7 +256,7 @@ img {
   height: 100%;
   width: 90%;
   border-radius: 5px;
-  background-color: #1c1c1c;
+  background-color: var(--dark-grey-color);
 }
 
 .about .skills .skills-progress span:after {
@@ -267,7 +269,7 @@ img {
 }
 .about .button {
   margin-top: 20px;
-  border: 2px solid #1c1c1c;
+  border: 2px solid var(--dark-grey-color);
   padding: 10px 30px;
 }
 
@@ -281,18 +283,18 @@ img {
 }
 
 .about .dwnbtn{
-  background-color: #1c1c1c;
+  background-color: var(--dark-grey-color);
   color: white;
 }
 
 .about .dwnbtn:hover{
   background-color: white;
-  color: #1c1c1c;
+  color: var(--dark-grey-color);
   transition: all 0.5s;
 }
 
 .about .cntbtn:hover{
-  background-color: #1c1c1c;
+  background-color: var(--dark-grey-color);
   color: white;
   transition: all 0.5s;
 }
