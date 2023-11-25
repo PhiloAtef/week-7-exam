@@ -421,7 +421,7 @@ img {
   height: 80px;
 }
 .greywords{
-  color: #999;
+  color: var(--grey-color);
   font-size: 15px;
 }
 
@@ -443,4 +443,8 @@ img {
 
 .card .icon:hover i {
   color: white;
+}
+
+.numbers h3 {
+  font-size: 2.5rem;
 }
