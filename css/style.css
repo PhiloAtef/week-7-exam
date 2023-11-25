@@ -400,3 +400,21 @@ img {
   -webkit-transform: translateY(10px);
   transform: translateY(10px);  
 }
+
+.carousel-indicators [data-bs-target] {
+  background-color: #999;
+  width: 10px; 
+  height: 10px; 
+  cursor: pointer;
+  transition: opacity .6s ease;
+  border-radius: 100%; 
+}
+
+.testimonial img{
+  width: 80px;
+  height: 80px;
+}
+.greywords{
+  color: #999;
+  font-size: 15px;
+}
