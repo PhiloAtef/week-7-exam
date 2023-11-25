@@ -330,8 +330,97 @@ img {
 }
 
 .prtfcontainer img{
-  width: 90%;
+  width: 100%;
   height: auto;
+}
+
+.prtfcontainer{
+  position: relative;
+  overflow: hidden;
+}
+.vertical{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+.prtfcontainer:hover .imgoverlay{
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0); 
+}
+
+.prtfcontainer:hover h6, .prtfcontainer:hover .icons{
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.prtfcontainer h6{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+  margin-bottom: 15px;
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.prtfcontainer .icons i{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 50%;
+  border: 1px solid #111;
+  background: #111;
+  color: #eee;
+}
+
+.prtfcontainer .icons i:hover{
+  background: transparent;
+  color: #000;
+}
+
+.imgoverlay{
+  position: absolute;
+  
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  background: rgba(255, 255, 255, 0.95);
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 2;
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);  
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #999;
+  width: 10px; 
+  height: 10px; 
+  cursor: pointer;
+  transition: opacity .6s ease;
+  border-radius: 100%; 
+}
+
+.testimonial img{
+  width: 80px;
+  height: 80px;
+}
+.greywords{
+  color: #999;
+  font-size: 15px;
 }
 
 .card .icon {
