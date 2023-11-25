@@ -491,3 +491,7 @@ img {
 #Team .card picture:hover img{
   scale: 1.2
 }
+
+.textGrey {
+  color: var(--grey-color);
+}
