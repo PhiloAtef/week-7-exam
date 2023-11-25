@@ -6,6 +6,7 @@ body {
   font-family: "Poppins", sans-serif !important;
   
 }
+
 *{
   text-decoration: none !important;
   list-style: none !important;
@@ -25,16 +26,16 @@ h6,
   font-family: "Montserrat", sans-serif;
 }
 
+nav {
+  z-index: 999;
+}
+
 ul.navbar-nav li {
   padding: 1rem 1.5rem;
 }
 
 .nav-item .active {
   position: relative;
-}
-
-.nav-item .nav-link {
-  color: black;
 }
 
 .nav-item .active::after {
