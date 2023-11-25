@@ -493,7 +493,7 @@ img {
 }
 
 .contact .icons i {
-  background: rgb(244, 244, 244);
+  background: #F4F4F4;
   transition: all 0.5s;
   width: 60px;
   height: 60px;
@@ -506,13 +506,21 @@ img {
   color: white;
 }
 
-.button {
+.button2 {
   background: #1c1c1c;
   color: #eee;
   transition: all 0.5s;
+  padding: 10px 40px;
+
 }
 
-.button:hover {
+.button2:hover {
   background: white;
   color: black;
+}
+
+.info .icons i{
+  background-color: #F4F4F4;
+  color:#000;
+  border: 0 transparent;
 }
